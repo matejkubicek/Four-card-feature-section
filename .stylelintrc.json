@@ -21,7 +21,7 @@
     "function-parentheses-space-inside": null,
     "max-nesting-depth": 3,
     "media-feature-name-no-vendor-prefix": true,
-    "number-leading-zero": "never",
+    "number-leading-zero": "always",
     "property-no-vendor-prefix": true,
     "rule-empty-line-before": null,
     "selector-list-comma-newline-after": null,

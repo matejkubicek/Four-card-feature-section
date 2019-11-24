@@ -2,18 +2,21 @@ body {
   color: $clr-font-prim;
   font-family: ("Poppins"), sans-serif;
   font-weight: $fw-normal;
+  line-height: 1.5;
 }
 
 h1 {
   color: $clr-font-scnd;
   font-size: 1.6em;
   font-weight: $fw-thin;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
   color: $clr-font-scnd;
   font-size: 1.6em;
   font-weight: $fw-bold;
+  margin-bottom: 1.5rem;
 }
 
 h3 {
