@@ -1,4 +1,23 @@
 body {
-  font-family: ('Poppins'), sans-serif;
-  font-size: 15px;
+  color: $clr-font-prim;
+  font-family: ("Poppins"), sans-serif;
+  font-weight: $fw-normal;
+}
+
+h1 {
+  color: $clr-font-scnd;
+  font-size: 1.6em;
+  font-weight: $fw-thin;
+}
+
+h2 {
+  color: $clr-font-scnd;
+  font-size: 1.6em;
+  font-weight: $fw-bold;
+}
+
+h3 {
+  color: $clr-font-scnd;
+  font-size: 1.5em;
+  font-weight: $fw-bold;
 }
