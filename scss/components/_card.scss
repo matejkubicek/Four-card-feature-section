@@ -1,3 +1,30 @@
 .card {
+  font-size: 15px;
+  font-weight: $fw-thin;
+  box-shadow: 5px 10px 20px #e4e4e4, -5px 10px 20px #e4e4e4;
+  border-top: 4px solid #3d3d3d;
+  border-radius: 5px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  overflow: auto;
+  & img {
+    float: right;
+    margin-top: 2rem;
+  }
+}
 
+.card--cyan {
+  border-top: 4px solid $clr-cyan;
+}
+
+.card--red {
+  border-top: 4px solid $clr-red;
+}
+
+.card--orange {
+  border-top: 4px solid $clr-orange;
+}
+
+.card--blue {
+  border-top: 4px solid $clr-blue;
 }
