@@ -7,6 +7,7 @@
   padding: 2rem;
   margin-bottom: 2rem;
   overflow: auto;
+  height: auto;
   & img {
     float: right;
     margin-top: 2rem;
@@ -27,4 +28,59 @@
 
 .card--blue {
   border-top: 4px solid $clr-blue;
+}
+
+@media only screen and (min-width: 750px) {
+  .card {
+    margin: 0;
+  }
+
+  .card--cyan {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .card--red {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .card--orange {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .card--blue {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .card {
+    margin: 0;
+  }
+
+  .card--cyan {
+    grid-column: 1;
+    grid-row: span 2;
+    height: fit-content;
+  }
+
+  .card--red {
+    grid-column: 2;
+    grid-row: 1;
+    height: fit-content;
+  }
+
+  .card--orange {
+    grid-column: 2;
+    grid-row: 2;
+    height: fit-content;
+  }
+
+  .card--blue {
+    grid-column: 3;
+    grid-row: span 2;
+    height: fit-content;
+  }
 }
